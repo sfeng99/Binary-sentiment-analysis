@@ -27,6 +27,14 @@ python run_glue.py \
 
 Note that the model will be automatically saved to /tmp/SST-2 directory. 
 
+Then run the script to train the model
+
+```
+bash run_glue.sh
+```
+
+
+
 ## Prediction
 
 Change the model_type you use at initializer of class **SentimentAnalyzer** in predict.py. There are two methods you can do prediction.
